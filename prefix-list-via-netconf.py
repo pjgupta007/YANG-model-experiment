@@ -2,7 +2,10 @@ from ncclient import manager
 import device_info
 import xmltodict
 import xml.dom.minidom
-
+"""
+   This is a template to create ip prefix-list
+   using YANG data model driven programmability
+"""
 prefix_list="""
 <config>
     <native xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-native">

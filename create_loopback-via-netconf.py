@@ -2,7 +2,10 @@ from ncclient import manager
 import device_info
 import xmltodict
 import xml.dom.minidom
-
+"""
+   This is a template to create loopback interface
+   using YANG data model driven programmability
+"""
 create_loopback = """
 <config>
   <interfaces xmlns="urn:ietf:params:xml:ns:yang:ietf-interfaces">

@@ -3,7 +3,10 @@ import device_info
 import xmltodict
 import xml.dom.minidom
 
-
+"""
+   This is a template to create route-map 
+   using YANG data model driven programmability
+"""
 
 route_map = """
 <config>

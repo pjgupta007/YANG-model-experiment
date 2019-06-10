@@ -2,7 +2,10 @@ from ncclient import manager
 import device_info
 import xmltodict
 import xml.dom.minidom
-
+"""
+   This is a template to create bgp peer and configration
+   using YANG data model driven programmability
+"""
 bgp = """
 <config>
     <native xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-native">
